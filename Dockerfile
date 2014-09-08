@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Orange <robertomigli@gmail.com>
+MAINTAINER Roberto Migli <robertomigli@gmail.com>
 
 RUN apt-get update && apt-get upgrade -y && apt-get install -y curl perl nginx-full
 
